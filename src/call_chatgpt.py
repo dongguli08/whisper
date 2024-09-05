@@ -1,6 +1,7 @@
-from src.call_whisper import whisper
+from call_whisper import whisper
 
-audio_file = "whisper/test2.m4a"
+audio_file = "test.mp3"
 
 content  = whisper(audio_file)
 
+print(content)

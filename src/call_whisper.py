@@ -12,3 +12,4 @@ def whisper(audio_file):
     # 결과 출력
     return result['text']
 
+
