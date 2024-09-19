@@ -61,6 +61,8 @@
 
 # 아직 모르겠음
 
+
+
 # 필요한 라이브러리 import
 import speech_recognition as sr
 import ffmpeg
@@ -112,4 +114,4 @@ if __name__ == "__main__":
     #live_sound 에서 사용자 이름을 입력받는 다음 그에 맞는 파일이름으로 음성녹음을 한다
     #그리고 audio_processor로 파일을 보내준다
     # 사용자마다 파일 이름을 정해주는 이유는 사람들이 같이 음성녹음을 진행하면 마지막에 녹음한 사람의 것으로 파일 녹음이 된다 그러하여 각각의 파일 이름을 정해준다
-    # 
+    
